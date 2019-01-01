@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)), url("about me.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100hv;
+}
+
+p {
+font-weight: "Roboto", sans-serif;
+font-size: 17px;
+color: white;
+text-shadow: 2px 2px #B6A9B2;
+
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: white;
+  text-shadow: 1px 1px #B6A9B2;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.main-nav li.active a {
+  border: 1px solid white;
+  text-shadow: 1px 1px #B6A9B2;
+  background-color: #B6A9B2;
+}
+
+.main-nav li a:hover {
+  border: 1px solid white;
+  background-color: #B6A9B2;
+  transition: all 0.5s ease-in;
+}
+
+.page-description {
+  position: absolute;
+  width: 1200px;
+  margin-left: 50px;
+  margin-top: 250px;
+  margin-right: 0;
+}
+
+.page-title {
+  position: absolute;
+  width: 1200px;
+  margin-left: 15px;
+  margin-top: 5px;
+  color: #B6A9B2;
+  text-shadow: 2px 2px black;
+  border: white;
+  font-size: 45px;
+
+}
+
+div.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 10px;
+
+}
+
+.page-title2 {
+  color: #F0BD73;
+  position: absolute;
+  width: 1200px;
+  margin-left: 50px;
+  margin-top: 5px;
+  text-shadow: 2px 2px #B6A9B2;
+  border: white;
+  font-size: 45px;
+}
+
+.content {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    margin-left: 150px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 1px 1px black;
+    color: #B6A9B2;
+    text-decoration: none
+
+}
+
+.body2 {
+  background-image: url("white.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100hv;
+}
+
+.h22 {
+  color: #B6A9B2;
+  font-size: 35px;
+  text-decoration: none
+}
+
+.p2 {
+  color: #B6A9B2;
+  font-size: 15px;
+  text-shadow: 1px 1px black;
+  margin-bottom: 40px;
+}
+
+.media {
+  float: left;
+  position: absolute;
+  display: inline;
+  margin-top: 2000px;
+  margin-left: 150px;
+  padding: 10px;
+}
+
+.footer2 {
+  position: absolute;
+  margin-top:2080px;
+  width: 50%;
+  color: #B6A9B2;
+  text-shadow: 1px 1px black;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
